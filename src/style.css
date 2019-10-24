@@ -1,0 +1,87 @@
+body {
+    background-color: #286757;
+    color: #181A1B;
+    font-weight: 400;
+}
+
+.outerbox,
+.titlebox {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 25px;
+}
+
+.outerbox {
+    background-color: #B3F200;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px #1a0005;
+    padding-bottom: 5px;
+}
+
+.titlebox {
+    background-color: #D3E0D3;
+    margin: 5px -11px 0px -11px;
+    border: 0px solid #181A1B;
+    box-shadow: 0px 2px 2px 1px #5e8000;
+    color: #181A1B;
+    font-family: 'Lobster', cursive;
+    text-align: left;
+    font-weight: 400;
+    text-shadow: 1px 0px #181A1B;
+    padding: 1px 0px 1px 10px;
+}
+
+.channelbox {
+    background-color: #e1eae1;
+    margin: 0px -11px 0px -11px;
+    box-shadow: 0px 2px 2px 1px #5e8000;
+    border-bottom: 1px solid #181A1B;
+    font-family: 'Oswald', sans-serif;
+}
+
+.channelboxsm {
+    text-align: left;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.username_off,
+.username_on {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.userdesc_off,
+.userdesc_on {
+    font-size: 16px;
+}
+
+.username_off {
+    color: gray;
+}
+
+.userdesc_off {
+    color: gray;
+}
+
+.username_on {
+    color: #181A1B;
+}
+
+.userdesc_on {
+    color: #2FC723;
+}
+
+.userimg_off,
+.userimg_on {
+    border-radius: 2px;
+    margin: 5px;
+    border: 3px solid #e1eae1;
+    height: 100px;
+    width: 100px;
+}
+
+.userimg_on {
+    border: 1px outset #181A1B;
+}
